@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mendel's Pea Garden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+      body {
+        font-family: 'Fredoka', sans-serif;
+        background-color: #f0fdf4; /* green-50 */
+      }
+      /* Custom scrollbar for inventory */
+      .custom-scroll::-webkit-scrollbar {
+        width: 8px;
+      }
+      .custom-scroll::-webkit-scrollbar-track {
+        background: #dcfce7; 
+      }
+      .custom-scroll::-webkit-scrollbar-thumb {
+        background: #16a34a; 
+        border-radius: 4px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
